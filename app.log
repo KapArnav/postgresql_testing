@@ -1,0 +1,22 @@
+2024-12-05 15:36:11,071 - db_setup - ERROR - Error connecting to database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "jupit"
+
+2024-12-05 15:36:11,071 - db_setup - WARNING - No connection to create tables.
+2024-12-05 15:36:11,165 - db_operations - ERROR - Failed to connect to database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "jupit"
+
+2024-12-05 15:36:11,165 - db_operations - WARNING - No database connection. Cannot insert employee.
+2024-12-05 15:36:11,165 - db_operations - WARNING - No database connection. Cannot insert employee.
+2024-12-05 15:36:11,165 - db_operations - WARNING - No database connection. Cannot fetch employees.
+2024-12-05 15:36:11,165 - __main__ - INFO - Employees in the database:
+2024-12-05 15:36:11,165 - db_setup - WARNING - No connection to close.
+2024-12-05 15:36:11,165 - db_operations - WARNING - No connection to close.
+2024-12-05 15:37:13,788 - db_setup - INFO - Connected to database postgres
+2024-12-05 15:37:13,811 - db_setup - INFO - Table created successfully.
+2024-12-05 15:37:13,925 - db_operations - INFO - Successfully connected to database postgres
+2024-12-05 15:37:13,932 - db_operations - INFO - Employee Alice inserted successfully!
+2024-12-05 15:37:13,934 - db_operations - INFO - Employee Bob inserted successfully!
+2024-12-05 15:37:13,936 - db_operations - INFO - Fetched 2 employees.
+2024-12-05 15:37:13,937 - __main__ - INFO - Employees in the database:
+2024-12-05 15:37:13,937 - __main__ - INFO - (1, 'Alice', 'Developer', Decimal('75000.00'), datetime.date(2024, 1, 15))
+2024-12-05 15:37:13,937 - __main__ - INFO - (2, 'Bob', 'Manager', Decimal('90000.00'), datetime.date(2024, 2, 20))
+2024-12-05 15:37:13,938 - db_setup - INFO - Database connection closed.
+2024-12-05 15:37:13,938 - db_operations - INFO - Database connection closed.
